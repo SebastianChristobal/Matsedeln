@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "matsedeln-client-side-solution",
+    "id": "9739a1e9-f3d8-42d7-8b46-c393b0877d8b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "matsedeln description"
+      },
+      "longDescription": {
+        "default": "matsedeln description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "matsedeln Feature",
+        "description": "The feature that activates elements of the matsedeln solution.",
+        "id": "af3d310c-1439-491a-9d28-62805965d068",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/matsedeln.sppkg"
+  }
+}
