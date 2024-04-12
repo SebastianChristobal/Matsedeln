@@ -23,7 +23,7 @@ export default class MatsedelnWebPart extends BaseClientSideWebPart<IMatsedelnWe
 
   public render(): void {
     const element: React.ReactElement<IMatsedelnProps> = React.createElement(
-      Matsedeln,
+      Matsedeln, 
       {
         description: this.properties.description,
         isDarkTheme: this._isDarkTheme,

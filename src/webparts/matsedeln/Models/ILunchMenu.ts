@@ -4,5 +4,4 @@ export interface ILunchMenu{
     Title: string;
     Veckodag: string;
     Matratt: string;
-    Vecka: string;
 }
